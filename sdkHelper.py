@@ -13,3 +13,4 @@ class sdkHelper:
     def getUpdates(self, token):
         response = requests.get(f"{self.url}{token}/getUpdates")
         return response.json()
+    
